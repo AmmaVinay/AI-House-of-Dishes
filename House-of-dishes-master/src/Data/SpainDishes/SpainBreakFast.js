@@ -1,32 +1,53 @@
-const SpainBreakFast = [
+export const SpainBreakFast = [
   {
     dishName: "Spaghetti Bolognese",
     dishImage: "https://live.staticflickr.com/4091/5023161954_6dfe5814df_b.jpg",
   },
   {
     dishName: "Spanish Omelette",
-    dishImage: "https://example.com/spanish_omelette.jpg",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/01bf535e-788e-4878-b0d4-a6ab3b9434b2/thumb/",
   },
   {
     dishName: "Churros with Chocolate",
-    dishImage: "https://example.com/churros_with_chocolate.jpg",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/e8a6f000-b890-4c97-b057-ddabc29020bd/thumb/",
   },
   {
     dishName: "Pan con Tomate",
-    dishImage: "https://example.com/pan_con_tomate.jpg",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/7b7dffa8-0aec-4f8f-9645-2e1a640dff3b/thumb/",
   },
   {
     dishName: "Huevos Rotos",
-    dishImage: "https://example.com/huevos_rotos.jpg",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/fb112eee-b687-4018-8ac3-da7f26b6b21a/thumb/",
   },
   {
     dishName: "Tortilla de Patatas",
-    dishImage: "https://example.com/tortilla_de_patatas.jpg",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/54f24aea-f135-4907-b653-bc9ad7374f0c/thumb/",
   },
-  { dishName: "Migas", dishImage: "https://example.com/migas.jpg" },
-  { dishName: "Ensaimada", dishImage: "https://example.com/ensaimada.jpg" },
-  { dishName: "Pisto", dishImage: "https://example.com/pisto.jpg" },
-  { dishName: "Morcilla", dishImage: "https://example.com/morcilla.jpg" },
+  {
+    dishName: "Migas",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/62207958-b947-422c-b479-bd6adf2ab256/thumb/",
+  },
+  {
+    dishName: "Ensaimada",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/928c2040-638f-4a0a-8f1b-07187b3e65f9/thumb/",
+  },
+  {
+    dishName: "Pisto",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/ecff84e6-f0b2-470a-9f7d-4bc01ba7b6a5/thumb/",
+  },
+  {
+    dishName: "Morcilla",
+    dishImage:
+      "https://api.openverse.engineering/v1/images/d1b430f2-364c-40e5-8498-63112d87b406/thumb/",
+  },
   { dishName: "Torrijas", dishImage: "https://example.com/torrijas.jpg" },
   {
     dishName: "Churro Ice Cream Sandwich",
