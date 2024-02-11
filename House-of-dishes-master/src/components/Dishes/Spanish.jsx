@@ -2,7 +2,7 @@ import React from 'react';
 
 import Card3 from '../Card3';
 import { SpainBreakFast } from '../../Data/SpainDishes/SpainBreakFast';
-
+import {SpainLunch} from '../../Data/SpainDishes/SpainLunch'
 
 function Spanish() {
 return (
@@ -15,7 +15,7 @@ return (
         </div>
 
         <div>
-            <Card3 title="Lunch"  famousDish={SpainBreakFast}/>
+            <Card3 title="Lunch"  famousDish={SpainLunch}/>
         </div>
 
         <div>
