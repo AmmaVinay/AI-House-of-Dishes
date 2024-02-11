@@ -14,8 +14,9 @@ const Card3 = ({ title, famousDish }) => {
   const settings = {
     dots: false,
     infinite: true,
+    speed: 500,
     slidesToShow: slidesToShow,
-    slidesToScroll: 1,
+    slidesToScroll: 4,
     autoplaySpeed: 2000,
     pauseOnHover: true,
   };
