@@ -1,10 +1,8 @@
 import { FaStar,FaStarHalfAlt } from "react-icons/fa";
  import "./Card2.css"
-
 const Card2 = ({ title, imageUrl, time, rating }) => {
 const fullStars = Math.floor(rating);
 const hasHalfStar = rating % 1 !== 0;
-
  return (
 <div className="rounded-lg  h-[325px] flex  flex-row md:flex-col  w-[325px]  cursor-pointer   hover:scale-110 transition-all duration-300 ">
     <div className="cards-container  ">
@@ -40,5 +38,4 @@ const hasHalfStar = rating % 1 !== 0;
 </div>
 );
 };
-
 export default Card2;

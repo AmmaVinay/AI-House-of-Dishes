@@ -1,6 +1,6 @@
 import React from 'react';
- import { SpainBreakFast } from '../../../Data/SpainDishes/SpainBreakFast';
- import SeeMore from './SeeMore';
+import { SpainBreakFast } from '../../../Data/SpainDishes/SpainBreakFast';
+  import SeeMore from './SeeMore';
 const SpainishLuxuryDinner = () => {
   return (
     <div className="mx-12">

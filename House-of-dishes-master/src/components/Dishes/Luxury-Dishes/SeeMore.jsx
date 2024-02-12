@@ -1,10 +1,8 @@
 import React from 'react'
 import { FaStar, FaStarHalfAlt } from 'react-icons/fa';
-
 function SeeMore({ title, imageUrl, rating, time }) {
       const fullStars = Math.floor(rating);
   const hasHalfStar = rating % 1 !== 0;
-
   return (
     <div className="rounded-lg h-[325px] flex flex-row flex-wrap  w-[325px] cursor-pointer hover:scale-110 transition-all duration-300">
       <div className="cards-container">
@@ -39,5 +37,4 @@ function SeeMore({ title, imageUrl, rating, time }) {
     </div>
   )
 }
-
 export default SeeMore

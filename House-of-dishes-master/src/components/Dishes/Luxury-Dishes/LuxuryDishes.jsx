@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
  import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import Slider from 'react-slick'; // Import the Slider component
+import Slider from 'react-slick';  
 import { useState, useEffect } from "react";
  import { FaAngleRight } from "react-icons/fa6";
 import { FaMicrophone } from "react-icons/fa";
@@ -53,6 +53,9 @@ const handleResize = () => {
   return (
     <div className='bg-[#fff] min-h-screen'>
       <div>
+        
+      </div>
+      <div>
         <h1 className='text-center text-7xl text-black font-bold py-12'>Luxury Dishes</h1>
 <div className="flex justify-center">
   <div className="relative w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
@@ -65,8 +68,7 @@ const handleResize = () => {
       className="border-2 text-sm font-medium py-2 sm:py-3 border-green-400 rounded-lg px-6 sm:px-10 text-start text-black focus:border-black outline-none w-full"
     />
   <div className="absolute inset-y-0 right-2 flex items-center pr-3 pointer-events-none">
-    {/* Assuming you are using a library or component like React Icons */}
-    <FaMicrophone className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+     <FaMicrophone className="w-4 h-4 text-gray-500 dark:text-gray-400" />
   </div>
 
   </div>

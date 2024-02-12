@@ -4,97 +4,79 @@ export const dishes = [
   {
     countryName: "Spanish",
     countryFlag: "es",
-    LuxuryDishesPath: "/Luxury-Dishes/Spanish",
+    LuxuryDishesPath: "/Luxury-Dishes/Spanish"
   },
   {
     countryName: "Indian",
-    countryFlag: "in",
-    LuxuryDishesPath: "/Luxury-Dishes/Indian",
+    countryFlag: "in"
   },
   {
     countryName: "Mexican",
-    countryFlag: "mx",
-    LuxuryDishesPath: "/Luxury-Dishes/Mexican",
+    countryFlag: "mx"
   },
   {
     countryName: "French",
-    countryFlag: "fr",
-    LuxuryDishesPath: "/Luxury-Dishes/French",
+    countryFlag: "fr"
   },
   {
     countryName: "Italian",
-    countryFlag: "it",
-    LuxuryDishesPath: "/Luxury-Dishes/Italian",
+    countryFlag: "it"
   },
   {
     countryName: "Japanese",
-    countryFlag: "jp",
-    LuxuryDishesPath: "/Luxury-Dishes/Japanese",
+    countryFlag: "jp"
   },
   {
     countryName: "Chinese",
-    countryFlag: "cn",
-    LuxuryDishesPath: "/Luxury-Dishes/Chinese",
+    countryFlag: "cn"
   },
   {
     countryName: "Turkish",
-    countryFlag: "tr",
-    LuxuryDishesPath: "/Luxury-Dishes/Turkish",
+    countryFlag: "tr"
   },
   {
     countryName: "Thai",
-    countryFlag: "th",
-    LuxuryDishesPath: "/Luxury-Dishes/Thai",
+    countryFlag: "th"
   },
   {
     countryName: "Greek",
-    countryFlag: "gr",
-    LuxuryDishesPath: "/Luxury-Dishes/Greek",
+    countryFlag: "gr"
   },
   {
     countryName: "Russian",
-    countryFlag: "ru",
-    LuxuryDishesPath: "/Luxury-Dishes/Russian",
+    countryFlag: "ru"
   },
   {
     countryName: "Brazilian",
-    countryFlag: "br",
-    LuxuryDishesPath: "/Luxury-Dishes/Brazilian",
+    countryFlag: "br"
   },
   {
     countryName: "Moroccan",
-    countryFlag: "ma",
-    LuxuryDishesPath: "/Luxury-Dishes/Moroccan",
+    countryFlag: "ma"
   },
   {
     countryName: "Lebanese",
-    countryFlag: "lb",
-    LuxuryDishesPath: "/Luxury-Dishes/Lebanese",
+    countryFlag: "lb"
   },
   {
     countryName: "Vietnamese",
-    countryFlag: "vn",
-    LuxuryDishesPath: "/Luxury-Dishes/Vietnamese",
+    countryFlag: "vn"
   },
   {
     countryName: "South Korean",
-    countryFlag: "kr",
-    LuxuryDishesPath: "/Luxury-Dishes/South-Korean",
+    countryFlag: "kr"
   },
   {
     countryName: "Swiss",
-    countryFlag: "ch",
-    LuxuryDishesPath: "/Luxury-Dishes/Swiss",
+    countryFlag: "ch"
   },
   {
     countryName: "Austrian",
-    countryFlag: "at",
-    LuxuryDishesPath: "/Luxury-Dishes/Austrian",
+    countryFlag: "at"
   },
   {
     countryName: "Australian",
-    countryFlag: "au",
-    LuxuryDishesPath: "/Luxury-Dishes/Australian",
-  },
+    countryFlag: "au"
+  }
   // Add more dishes as
 ];
