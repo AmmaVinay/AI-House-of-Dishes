@@ -9,7 +9,9 @@ import Layout from './components/Layout'
 import TeamPage from './pages/TeamPage'
 import LuxuryDishes from "./components/Dishes/Luxury-Dishes/LuxuryDishes";
 import Spanish from './components/Dishes/Spanish'
-import LuxuryBreakFast from './components/Dishes/Luxury-Dishes/LuxuryBreakFast'
+import SpainishLuxuryBreakFast from './components/Dishes/Luxury-Dishes/SpainishLuxuryBreakFast'
+import SpainishLuxuryLunch from './components/Dishes/Luxury-Dishes/SpainishLuxuryLunch'
+import SpainishLuxuryDinner from './components/Dishes/Luxury-Dishes/SpainishLuxuryDinner'
  const App = () => {
   return (
     <>
@@ -23,7 +25,10 @@ import LuxuryBreakFast from './components/Dishes/Luxury-Dishes/LuxuryBreakFast'
       <Route path='/login' element={<Login/>}/>
       <Route path='/Luxury-Dishes' element={<LuxuryDishes />}/>
       <Route path='/Luxury-Dishes/Spanish' element={<Spanish />} />
-      <Route path='/Luxury-Dishes/Spanish/LuxuryBreakFast' element={<LuxuryBreakFast />} />
+      <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryBreakFast' element={<SpainishLuxuryBreakFast />} />
+      <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryLunch' element={<SpainishLuxuryLunch />} />
+      <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryDinner' element={<SpainishLuxuryDinner />} />
+
       </Routes> 
      </BrowserRouter>
      </>

@@ -6,117 +6,22 @@ import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick'; // Import the Slider component
 import { useState, useEffect } from "react";
  import { FaAngleRight } from "react-icons/fa6";
+import { FaMicrophone } from "react-icons/fa";
+import { FiSearch } from "react-icons/fi";
+
+import { dishes } from '../../../Data/CountryFlag';
 
 function LuxuryDishes() {
-const dishes = [
-  {
-    countryName: 'Spanish',
-    countryFlag: 'es',
-    LuxuryDishesPath: '/Luxury-Dishes/Spanish'
-  },
-  {
-    countryName: 'Indian',
-    countryFlag: 'in',
-    LuxuryDishesPath: '/Luxury-Dishes/Indian'
-  },
-  {
-    countryName: 'Mexican',
-    countryFlag: 'mx',
-    LuxuryDishesPath: '/Luxury-Dishes/Mexican'
-  },
-  {
-    countryName: 'French',
-    countryFlag: 'fr',
-    LuxuryDishesPath: '/Luxury-Dishes/French'
-  },
-  {
-    countryName: 'Italian',
-    countryFlag: 'it',
-    LuxuryDishesPath: '/Luxury-Dishes/Italian'
-  },
-  {
-    countryName: 'Japanese',
-    countryFlag: 'jp',
-    LuxuryDishesPath: '/Luxury-Dishes/Japanese'
-  },
-  {
-    countryName: 'Chinese',
-    countryFlag: 'cn',
-    LuxuryDishesPath: '/Luxury-Dishes/Chinese'
-  },
-  {
-    countryName: 'Turkish',
-    countryFlag: 'tr',
-    LuxuryDishesPath: '/Luxury-Dishes/Turkish'
-  },
-  {
-    countryName: 'Thai',
-    countryFlag: 'th',
-    LuxuryDishesPath: '/Luxury-Dishes/Thai'
-  },
-  {
-    countryName: 'Greek',
-    countryFlag: 'gr',
-    LuxuryDishesPath: '/Luxury-Dishes/Greek'
-  },
-  {
-    countryName: 'Russian',
-    countryFlag: 'ru',
-    LuxuryDishesPath: '/Luxury-Dishes/Russian'
-  },
-  {
-    countryName: 'Brazilian',
-    countryFlag: 'br',
-    LuxuryDishesPath: '/Luxury-Dishes/Brazilian'
-  },
-  {
-    countryName: 'Moroccan',
-    countryFlag: 'ma',
-    LuxuryDishesPath: '/Luxury-Dishes/Moroccan'
-  },
-  {
-    countryName: 'Lebanese',
-    countryFlag: 'lb',
-    LuxuryDishesPath: '/Luxury-Dishes/Lebanese'
-  },
-  {
-    countryName: 'Vietnamese',
-    countryFlag: 'vn',
-    LuxuryDishesPath: '/Luxury-Dishes/Vietnamese'
-  },
-  {
-    countryName: 'South Korean',
-    countryFlag: 'kr',
-    LuxuryDishesPath: '/Luxury-Dishes/South-Korean'
-  },
-  {
-    countryName: 'Swiss',
-    countryFlag: 'ch',
-    LuxuryDishesPath: '/Luxury-Dishes/Swiss'
-  },
-  {
-    countryName: 'Austrian',
-    countryFlag: 'at',
-    LuxuryDishesPath: '/Luxury-Dishes/Austrian'
-  },
-  {
-    countryName: 'Australian',
-    countryFlag: 'au',
-    LuxuryDishesPath: '/Luxury-Dishes/Australian'
-  },
-  // Add more dishes as
-  ]
-  const [viewMore, setViewMore] = useState(0);
+const [viewMore, setViewMore] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(4);
 
   const settings = {
     dots: false,
     infinite: true,
     slidesToShow: slidesToShow,
-    slidesToScroll: 1,
-        swipeToSlide: true,
+    slidesToScroll: 4,
+    swipeToSlide: true,
     speed: 500,
-
    };
 
   useEffect(() => {
@@ -149,6 +54,24 @@ const handleResize = () => {
     <div className='bg-[#fff] min-h-screen'>
       <div>
         <h1 className='text-center text-7xl text-black font-bold py-12'>Luxury Dishes</h1>
+<div className="flex justify-center">
+  <div className="relative w-full sm:w-1/2 md:w-1/2 lg:w-1/4">
+    <div className="absolute inset-y-0   flex items-center px-3 pointer-events-none">
+      <FiSearch size={25} className=' text-gray-500 dark:text-gray-400' />
+    </div> 
+    <input
+      type="search"
+      placeholder="Search country, dishes"
+      className="border-2 text-sm font-medium py-2 sm:py-3 border-green-400 rounded-lg px-6 sm:px-10 text-start text-black focus:border-black outline-none w-full"
+    />
+  <div className="absolute inset-y-0 right-2 flex items-center pr-3 pointer-events-none">
+    {/* Assuming you are using a library or component like React Icons */}
+    <FaMicrophone className="w-4 h-4 text-gray-500 dark:text-gray-400" />
+  </div>
+
+  </div>
+</div>
+
       </div>
       <div className='mx-12'>
         <div className='flex flex-row items-center justify-between '>

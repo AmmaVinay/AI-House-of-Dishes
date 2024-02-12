@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "json.schemas": [],
+  "reactSnippets.settings.prettierEnabled": false,
+  "prettier.insertPragma": true
+}

@@ -1,11 +1,11 @@
 import React from 'react';
  import { SpainBreakFast } from '../../../Data/SpainDishes/SpainBreakFast';
  import SeeMore from './SeeMore';
-const LuxuryBreakFast = () => {
+const SpainishLuxuryDinner = () => {
   return (
     <div className="mx-12">
       <div>
-        <h1 className='py-12 text-lg md:text-3xl text-center font-bold text-black'>Spanish BreakFast Dishes</h1>
+        <h1 className='py-12 text-lg md:text-3xl text-center font-bold text-black'>Spanish Dinner Dishes</h1>
       </div>
       <div className="flex flex-wrap justify-center">
         {SpainBreakFast.map((dish, index) => (
@@ -18,4 +18,4 @@ const LuxuryBreakFast = () => {
   );
 };
 
-export default LuxuryBreakFast;
+export default SpainishLuxuryDinner;
