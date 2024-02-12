@@ -2,24 +2,24 @@ import { useState, useEffect } from "react";
 import Card2 from "./Card2";
 import { FaAngleRight } from "react-icons/fa6";
 import Slider from "react-slick";
- import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
- 
-const Card3 = ({ title, famousDish }) => {
+ const dishesSeeMorePath = [
+  { title: 'Breakfast', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryBreakFast' },
+  { title: 'Lunch', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryLunch' },
+  { title: 'Dinner', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryDinner' }
+];
+
+const Card3 = ({ title, famousDish,  }) => {
    const [slidesToShow, setSlidesToShow] = useState(4);
-  const dishesSeeMorePath = [
-    { title: 'Breakfast', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryBreakFast' },
-    { title: 'Lunch', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryLunch' },
-    { title: 'Dinner', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryDinner' }
-]
- 
+  
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: slidesToShow,
-    slidesToScroll: 4,
+    slidesToScroll: 3,
     autoplaySpeed: 2000,
     pauseOnHover: true,
   };

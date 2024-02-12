@@ -7,11 +7,11 @@ import Cooking from './pages/Cooking'
  import Login from './pages/Login'
 import Layout from './components/Layout'
 import TeamPage from './pages/TeamPage'
-import LuxuryDishes from "./components/Dishes/Luxury-Dishes/LuxuryDishes";
-import Spanish from './components/Dishes/Spanish'
-import SpainishLuxuryBreakFast from './components/Dishes/Luxury-Dishes/SpainishLuxuryBreakFast'
-import SpainishLuxuryLunch from './components/Dishes/Luxury-Dishes/SpainishLuxuryLunch'
-import SpainishLuxuryDinner from './components/Dishes/Luxury-Dishes/SpainishLuxuryDinner'
+import LuxuryDishes from './components/Dishes/Luxury-Dishes/Spain/LuxuryDishes'
+import Spanish from './components/Dishes/Luxury-Dishes/Spain/Spanish'
+import SpainishLuxuryBreakFast from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryBreakFast'
+import SpainishLuxuryLunch from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryLunch'
+import SpainishLuxuryDinner from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryDinner'
  const App = () => {
   return (
     <>

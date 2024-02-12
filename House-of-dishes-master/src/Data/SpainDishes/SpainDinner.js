@@ -1,17 +1,49 @@
 /** @format */
 
-export const SpainLunch = [
-  {
-    dishName: "Paella",
-    dishImage: "https://example.com/paella.jpg"
-  },
+export const SpainDinner = [
   {
     dishName: "Gazpacho",
     dishImage: "https://example.com/gazpacho.jpg"
   },
   {
+    dishName: "Tapas Assortment",
+    dishImage: "https://example.com/tapas_assortment.jpg"
+  },
+  {
+    dishName: "Jamón Ibérico",
+    dishImage: "https://example.com/jamon_iberico.jpg"
+  },
+  {
+    dishName: "Salmorejo",
+    dishImage: "https://example.com/salmorejo.jpg"
+  },
+  {
+    dishName: "Patatas Bravas",
+    dishImage: "https://example.com/patatas_bravas.jpg"
+  },
+  {
     dishName: "Calamares a la Romana",
     dishImage: "https://example.com/calamares_a_la_romana.jpg"
+  },
+  {
+    dishName: "Fabada Asturiana",
+    dishImage: "https://example.com/fabada_asturiana.jpg"
+  },
+  {
+    dishName: "Cocido Madrileño",
+    dishImage: "https://example.com/cocido_madrileno.jpg"
+  },
+  {
+    dishName: "Arroz Negro",
+    dishImage: "https://example.com/arroz_negro.jpg"
+  },
+  {
+    dishName: "Bacalao a la Vizcaína",
+    dishImage: "https://example.com/bacalao_a_la_vizcaina.jpg"
+  },
+  {
+    dishName: "Rabo de Toro",
+    dishImage: "https://example.com/rabo_de_toro.jpg"
   },
   {
     dishName: "Ensaladilla Rusa",
@@ -56,45 +88,5 @@ export const SpainLunch = [
   {
     dishName: "Pulpo a la Plancha",
     dishImage: "https://example.com/pulpo_a_la_plancha.jpg"
-  },
-  {
-    dishName: "Churros with Chocolate",
-    dishImage: "https://example.com/churros_with_chocolate.jpg"
-  },
-  {
-    dishName: "Pan con Tomate",
-    dishImage: "https://example.com/pan_con_tomate.jpg"
-  },
-  {
-    dishName: "Huevos Rotos",
-    dishImage: "https://example.com/huevos_rotos.jpg"
-  },
-  {
-    dishName: "Tortilla de Patatas",
-    dishImage: "https://example.com/tortilla_de_patatas.jpg"
-  },
-  {
-    dishName: "Migas",
-    dishImage: "https://example.com/migas.jpg"
-  },
-  {
-    dishName: "Ensaimada",
-    dishImage: "https://example.com/ensaimada.jpg"
-  },
-  {
-    dishName: "Pulpo a la Gallega",
-    dishImage: "https://example.com/pulpo_a_la_gallega.jpg"
-  },
-  {
-    dishName: "Arroz a la Cubana",
-    dishImage: "https://example.com/arroz_a_la_cubana.jpg"
-  },
-  {
-    dishName: "Sardinas en Escabeche",
-    dishImage: "https://example.com/sardinas_en_escabeche.jpg"
-  },
-  {
-    dishName: "Leche Frita",
-    dishImage: "https://example.com/leche_frita.jpg"
   }
 ];
