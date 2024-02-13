@@ -27,7 +27,7 @@ dots: false,
 infinite: true,
 slidesToShow: slidesToShow,
 slidesToScroll: 3,
-swipeToSlide: true,
+    autoplaySpeed: 2000,
 speed: 500,
 };
 
