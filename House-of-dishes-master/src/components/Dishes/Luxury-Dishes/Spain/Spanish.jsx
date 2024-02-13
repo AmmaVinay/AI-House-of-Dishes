@@ -1,8 +1,8 @@
 import React from 'react';
  import Card3 from '../../../Card3'
-import { SpainBreakFast } from '../../../../Data/SpainDishes/SpainBreakFast';
-import { SpainLunch } from '../../../../Data/SpainDishes/SpainLunch';
-import { SpainDinner } from '../../../../Data/SpainDishes/SpainDinner';
+import { SpainBreakFast } from '../../../../Data/LuxuryDishesData/SpainDishes/SpainBreakFast';
+import { SpainLunch } from '../../../../Data/LuxuryDishesData/SpainDishes/SpainLunch';
+import { SpainDinner } from '../../../../Data/LuxuryDishesData/SpainDishes/SpainDinner';
 function Spanish() {
 return (
 <div className='bg-[#fff] min-h-screen'>

@@ -1,6 +1,6 @@
 /** @format */
 
-export const dishes = [
+export const CountryFlag = [
   {
     countryName: "Spanish",
     countryFlag: "es",
@@ -8,7 +8,8 @@ export const dishes = [
   },
   {
     countryName: "Indian",
-    countryFlag: "in"
+    countryFlag: "in",
+    LuxuryDishesPath: "/Luxury-Dishes/Indian"
   },
   {
     countryName: "Mexican",

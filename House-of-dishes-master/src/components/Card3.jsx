@@ -5,15 +5,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
- const dishesSeeMorePath = [
-  { title: 'Breakfast', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryBreakFast' },
-  { title: 'Lunch', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryLunch' },
-  { title: 'Dinner', pathUrl: '/Luxury-Dishes/Spanish/SpainishLuxuryDinner' }
-];
-
+import { dishesSeeMorePath } from "../Data/SeeMorePathUrl";
 const Card3 = ({ title, famousDish,  }) => {
-   const [slidesToShow, setSlidesToShow] = useState(4);
-  
+  const [slidesToShow, setSlidesToShow] = useState(4);
+
   const settings = {
     dots: false,
     infinite: true,

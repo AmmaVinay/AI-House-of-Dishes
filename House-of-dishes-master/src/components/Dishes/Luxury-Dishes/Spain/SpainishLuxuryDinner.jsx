@@ -1,6 +1,6 @@
 import React from 'react';
-import { SpainDinner } from '../../../../Data/SpainDishes/SpainDinner'; // Corrected import
-import SeeMore from './SeeMore';
+import { SpainDinner } from '../../../../Data/LuxuryDishesData/SpainDishes/SpainDinner'; // Corrected import
+ import Card2 from '../../../Card2';
 
 const SpainishLuxuryDinner = () => {
   return (
@@ -11,7 +11,7 @@ const SpainishLuxuryDinner = () => {
       <div className="flex flex-wrap justify-center">
         {SpainDinner.map((dish, index) => (
           <div key={index}>
-            <SeeMore title={dish.dishName} imageUrl={dish.dishImage} time={60} rating={4.5} />
+            <Card2 title={dish.dishName} imageUrl={dish.dishImage} time={60} rating={4.5} />
           </div>
         ))}
       </div>

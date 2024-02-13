@@ -8,14 +8,12 @@ import { useState, useEffect } from "react";
 import { FaAngleRight } from "react-icons/fa6";
 import { FaMicrophone } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
-
-import { dishes } from '../../../../Data/CountryFlag'
-
+import { CountryFlag } from '../../../Data/CountryFlagLuxuryData/CountryFlag';
 function LuxuryDishes() {
 const [viewMore, setViewMore] = useState(0);
 const [slidesToShow, setSlidesToShow] = useState(4);
 const [SearchCountry, setSearchCountry] = useState('');
-  const filteredCountry = dishes.filter((country) =>
+  const filteredCountry = CountryFlag.filter((country) =>
     country.countryName.toLowerCase().includes(SearchCountry.toLowerCase())
   );
     useEffect(() => {

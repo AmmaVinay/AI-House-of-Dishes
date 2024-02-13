@@ -1,6 +1,6 @@
 import React from 'react';
- import { SpainLunch } from '../../../../Data/SpainDishes/SpainLunch'
- import SeeMore from './SeeMore';
+ import { SpainLunch } from '../../../../Data/LuxuryDishesData/SpainDishes/SpainLunch'
+ import Card2 from '../../../Card2';
 const SpainishLuxuryLunch = () => {
   return (
     <div className="mx-12">
@@ -10,7 +10,7 @@ const SpainishLuxuryLunch = () => {
       <div className="flex flex-wrap justify-center">
         {SpainLunch.map((dish, index) => (
           <div key={index}>
-            <SeeMore title={dish.dishName} imageUrl={dish.dishImage} time={60} rating={4.5} />
+            <Card2 title={dish.dishName} imageUrl={dish.dishImage} time={60} rating={4.5} />
           </div>
         ))}
       </div>

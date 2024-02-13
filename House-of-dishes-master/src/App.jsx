@@ -7,12 +7,18 @@ import Cooking from './pages/Cooking'
  import Login from './pages/Login'
 import Layout from './components/Layout'
 import TeamPage from './pages/TeamPage'
-import LuxuryDishes from './components/Dishes/Luxury-Dishes/Spain/LuxuryDishes'
+import LuxuryDishes from './components/Dishes/Luxury-Dishes/LuxuryDishes'
 import Spanish from './components/Dishes/Luxury-Dishes/Spain/Spanish'
 import SpainishLuxuryBreakFast from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryBreakFast'
 import SpainishLuxuryLunch from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryLunch'
 import SpainishLuxuryDinner from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryDinner'
- const App = () => {
+
+import Indian from './components/Dishes/Luxury-Dishes/India/Indian'
+import IndianLuxuryBreakFast from './components/Dishes/Luxury-Dishes/India/IndianLuxuryBreakFast'
+import IndianLuxuryLunch from './components/Dishes/Luxury-Dishes/India/IndianLuxuryLunch'
+import IndianLuxuryDinner from './components/Dishes/Luxury-Dishes/India/IndianLuxuryDinner'
+
+const App = () => {
   return (
     <>
      <BrowserRouter>
@@ -28,6 +34,10 @@ import SpainishLuxuryDinner from './components/Dishes/Luxury-Dishes/Spain/Spaini
       <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryBreakFast' element={<SpainishLuxuryBreakFast />} />
       <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryLunch' element={<SpainishLuxuryLunch />} />
       <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryDinner' element={<SpainishLuxuryDinner />} />
+      <Route path='/Luxury-Dishes/Indian' element={<Indian />} />
+      <Route path='/Luxury-Dishes/Indian/IndianLuxuryBreakFast' element={<IndianLuxuryBreakFast />} />
+      <Route path='/Luxury-Dishes/Indian/IndianLuxuryLunch' element={<IndianLuxuryLunch />} />
+      <Route path='/Luxury-Dishes/Indian/IndianLuxuryDinner' element={<IndianLuxuryDinner />} />
 
       </Routes> 
      </BrowserRouter>
