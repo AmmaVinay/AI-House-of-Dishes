@@ -2,122 +2,126 @@
 
 export const IndianLunch = [
   {
-    dishName: "Paella",
+    dishName: "Butter Chicken",
     dishImage:
-      "https://api.openverse.engineering/v1/images/99edf11f-cd87-49f3-ac3f-94abb696dd24/thumb/"
+      "https://40aprons.com/wp-content/uploads/2016/01/butter-chicken-5-1.jpg"
   },
   {
-    dishName: "Gazpacho",
+    dishName: "Paneer Tikka Masala",
     dishImage:
-      "https://api.openverse.engineering/v1/images/adf5f090-6c8e-47fc-918e-06a62e1f2e32/thumb/"
+      "https://s3.amazonaws.com/static.realcaliforniamilk.com/media/recipes_2/paneer-tikka-masala.jpg"
   },
   {
-    dishName: "Calamares a la Romana",
+    dishName: "Chana Masala",
     dishImage:
-      "https://api.openverse.engineering/v1/images/ff305857-d0dd-4878-a84b-34868ed614b2/thumb/"
+      "https://www.indianveggiedelight.com/wp-content/uploads/2019/05/chana-masala-recipe-featured-500x500.jpg"
   },
   {
-    dishName: "Ensaladilla Rusa",
+    dishName: "Dal Makhani",
     dishImage:
-      "https://api.openverse.engineering/v1/images/9c27e33b-d680-44c8-9100-17691847ce29/thumb/"
+      "https://myfoodstory.com/wp-content/uploads/2018/08/Dal-Makhani-New-3.jpg"
   },
   {
-    dishName: "Cojonudos",
+    dishName: "Aloo Gobi",
     dishImage:
-      "https://api.openverse.engineering/v1/images/7e9685fd-c7ab-4dfa-b640-8cca7f608dac/thumb/"
+      "https://static01.nyt.com/images/2023/12/21/multimedia/ND-Aloo-Gobi-gkwc/ND-Aloo-Gobi-gkwc-square640.jpg"
   },
   {
-    dishName: "Espinacas con Garbanzos",
+    dishName: "Palak Paneer",
     dishImage:
-      "https://api.openverse.engineering/v1/images/e999eab0-dc9f-40b7-9f57-724aa5e7907f/thumb/"
+      "https://www.recipetineats.com/wp-content/uploads/2021/02/Indian-Palak-Paneer_4-SQ.jpg"
   },
   {
-    dishName: "Cazon en Adobo",
+    dishName: "Rajma Chawal",
     dishImage:
-      "https://api.openverse.engineering/v1/images/aedac3b1-49cc-4819-8c33-aaf275270f0b/thumb/"
+      "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/05/rajma-recipe-rajma-masala-500x375.jpg"
   },
   {
-    dishName: "Zarzuela de Mariscos",
+    dishName: "Biryani",
     dishImage:
-      "https://api.openverse.engineering/v1/images/3f213eac-b1cd-45f7-87fd-bad92010af42/thumb/"
+      "https://www.licious.in/blog/wp-content/uploads/2020/12/Hyderabadi-chicken-Biryani.jpg"
   },
   {
-    dishName: "Cordero a la Miel",
+    dishName: "Samosa",
     dishImage:
-      "https://media-cdn.tripadvisor.com/media/photo-s/0a/4f/93/70/tajine-de-cordero-a-la.jpg"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBDcIKnryynqZ9dN1AzF-uxzMdtOp0x0GeWA&usqp=CAU"
   },
   {
-    dishName: "Escudella i Carn d'Olla",
-    dishImage: "https://live.staticflickr.com/2273/2138578341_5e5acce4d9_b.jpg"
+    dishName: "Tandoori Chicken",
+    dishImage:
+      "https://www.cubesnjuliennes.com/wp-content/uploads/2022/12/Tandoori-Chicken-Recipe.jpg"
   },
   {
-    dishName: "Crema Catalana",
-    dishImage:
-      "https://api.openverse.engineering/v1/images/c17fd8b0-03f9-4719-ba33-80c954a5614a/thumb/"
+    dishName: "Roti",
+    dishImage: "https://atastykitchen.com/wp-content/uploads/2022/08/Roti.jpg"
   },
   {
-    dishName: "Pisto",
+    dishName: "Baingan Bharta",
     dishImage:
-      "https://www.cookedandloved.com/wp-content/uploads/2019/04/spanish-pisto-vegetable-stew-feature.jpg"
+      "https://www.teaforturmeric.com/wp-content/uploads/2016/12/Baingan-Bharta-3.jpg"
   },
   {
-    dishName: "Sopa de Ajo",
+    dishName: "Dhokla",
     dishImage:
-      "https://media.istockphoto.com/id/464405539/photo/garlic-soup.jpg?s=612x612&w=0&k=20&c=HgyWWk7Mlw7ftzg2GazX0Z9sonyNQmN7Jo-PfmlRbmo="
+      "https://www.cookingcarnival.com/wp-content/uploads/2023/02/Rava-Dhokla-5.jpg"
   },
   {
-    dishName: "Pulpo a la Plancha",
+    dishName: "Bhindi Masala",
     dishImage:
-      "https://api.openverse.engineering/v1/images/30c5c6c8-d481-4e67-b261-faa30f1bb56a/thumb/"
+      "https://ministryofcurry.com/wp-content/uploads/2020/12/Bhindi-Masala-3-850x1275.jpg"
   },
   {
-    dishName: "Churros with Chocolate",
+    dishName: "Aloo Paratha",
     dishImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDh68TUbEwhZoN8CXjAUdPWygrcY6A80UgQ&usqp=CAU"
+      "https://www.whiskaffair.com/wp-content/uploads/2020/06/Aloo-Paratha-2-3-500x500.jpg"
   },
   {
-    dishName: "Pan con Tomate",
+    dishName: "Chicken Curry",
     dishImage:
-      "https://www.yummymummykitchen.com/wp-content/uploads/2021/07/pan-con-tomate-05-720x540.jpg"
+      "https://spiceeats.com/wp-content/uploads/2020/02/Mild-Chicken-Curry.jpg"
   },
   {
-    dishName: "Huevos Rotos",
+    dishName: "Masoor Dal",
     dishImage:
-      "https://www.book-recipe.com/wp-content/uploads/2021/09/Spanish-HUEVOS-ROTOS-Broken-Eggs-FRIED-POTATOES-and-EGGS.jpg"
+      "https://www.acouplecooks.com/wp-content/uploads/2019/06/Masoor-Dal-009.jpg"
   },
   {
-    dishName: "Tortilla de Patatas",
+    dishName: "Vegetable Biryani",
     dishImage:
-      "https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2019/05/tortilla-espa%C3%B1ola.jpg"
+      "https://www.feastingathome.com/wp-content/uploads/2017/10/Vegetable-Biryani_-e1683054250848.jpg"
   },
   {
-    dishName: "Migas",
-    dishImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwbhOYsp_CORmDw1dd6qdZ8YPKAYupRvcn0A&usqp=CAU"
+    dishName: "Matar Paneer",
+    dishImage: "https://static.toiimg.com/photo/53251884.cms"
   },
   {
-    dishName: "Ensaimada",
+    dishName: "Pani Puri",
     dishImage:
-      "https://treurer.com/wp-content/uploads/AdobeStock_157280378-scaled.jpeg"
+      "https://sinfullyspicy.com/wp-content/uploads/2023/07/1200-by-1200-images-7.jpg"
   },
   {
-    dishName: "Pulpo a la Gallega",
+    dishName: "Chicken Biryani",
     dishImage:
-      "https://travelfoodatlas.com/wp-content/uploads/2022/09/Pulpo-a-la-Gallega-735x490.jpg"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnPROwaewo8D6jiT19lOwNrQrl6IiRCFC4wg&usqp=CAU"
   },
   {
-    dishName: "Arroz a la Cubana",
+    dishName: "Kadai Chicken",
     dishImage:
-      "https://theodehlicious.com/wp-content/uploads/2023/10/Arroz-Ala-Cubana.jpg"
+      "https://www.flavorquotient.com/wp-content/uploads/2016/08/Kadai-Chicken-FQ-5-1-of-1.jpg"
   },
   {
-    dishName: "Sardinas en Escabeche",
+    dishName: "Lamb Curry",
     dishImage:
-      "https://api.openverse.engineering/v1/images/c17e155b-b807-408b-8414-eb0a8a408921/thumb/"
+      "https://www.jcookingodyssey.com/wp-content/uploads/2012/04/punjabi-shahi-paneer-j-cooking-odyssey.jpg"
   },
   {
-    dishName: "Leche Frita",
+    dishName: "Fish Curry",
     dishImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTyUqboQ0IW9uClq2ZTJ3IWFcyQ-HnVdQt_Q&usqp=CAU"
+      "https://i0.wp.com/gomathirecipes.com/wp-content/uploads/2021/10/authentic-chettinad-fish-meen-kuzhambu-curry.jpg?resize=500%2C500&ssl=1"
+  },
+  {
+    dishName: "Shahi Paneer",
+    dishImage:
+      "https://veenaazmanov.com/wp-content/uploads/2020/07/Indian-Lamb-Curry-Authentic1-480x270.jpg"
   }
 ];

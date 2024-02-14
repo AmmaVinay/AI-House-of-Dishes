@@ -9,6 +9,8 @@ import { FaAngleRight } from "react-icons/fa6";
 import { FaMicrophone } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
 import { CountryFlag } from '../../../Data/CountryFlagLuxuryData/CountryFlag';
+import RecommendedDishes from '../../../components/RecommendedDIshes/RecommendedDishes'
+
 function LuxuryDishes() {
 const [viewMore, setViewMore] = useState(0);
 const [slidesToShow, setSlidesToShow] = useState(4);
@@ -75,7 +77,7 @@ window.removeEventListener("resize", handleResize);
         </div>
 
     </div>
-    <div className='mx-12'>
+    <div className='mx-12 mb-20'>
         <div className='flex flex-row items-center justify-between '>
             <div className='flex text-black text-[2rem] mb-6 mt-12'>
                 <h1 className='font-bold items-baseline text-xl sm:text-2xl md:text-4xl'> Countries</h1>
@@ -136,7 +138,11 @@ window.removeEventListener("resize", handleResize);
             </>
             ))}
         </div>
-    </div>
+         </div>
+    
+         <div>
+             <RecommendedDishes />
+         </div>
 </div>
 );
 }
