@@ -1,6 +1,6 @@
 /** @format */
 
-export const SpainLunch = [
+export const SpanishLunch = [
   {
     dishName: "Paella",
     dishImage:

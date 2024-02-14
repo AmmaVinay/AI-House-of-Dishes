@@ -9,13 +9,13 @@ return (
     <div className=' '>
         <h1 className='py-12 text-2xl sm:text-4xl md:text-6xl text-center font-bold text-black'>Indian Dishes</h1>
         <div>
-            <Card3 title="Breakfast"  famousDish={IndianBreakFast}/>
+            <Card3 title="Indian Breakfast" famousDish={IndianBreakFast}/>
         </div>
         <div>
-            <Card3 title="Lunch"  famousDish={IndianLunch}/>
+            <Card3 title="Indian Lunch"  famousDish={IndianLunch}/>
         </div>
         <div>
-            <Card3 title="Dinner"  famousDish={IndianDinner}/>
+            <Card3 title="Indian Dinner" famousDish={IndianDinner}/>
         </div>
     </div>
 </div>

@@ -1,21 +1,22 @@
 import React from 'react';
  import Card3 from '../../../Card3'
-import { SpainBreakFast } from '../../../../Data/LuxuryDishesData/SpainDishes/SpainBreakFast';
-import { SpainLunch } from '../../../../Data/LuxuryDishesData/SpainDishes/SpainLunch';
-import { SpainDinner } from '../../../../Data/LuxuryDishesData/SpainDishes/SpainDinner';
+import { SpanishBreakFast } from '../../../../Data/LuxuryDishesData/SpanishDishes/SpanishBreakFast';
+import { SpanishLunch } from '../../../../Data/LuxuryDishesData/SpanishDishes/SpanishLunch';
+import { SpanishDinner } from '../../../../Data/LuxuryDishesData/SpanishDishes/SpanishDinner';
+
 function Spanish() {
 return (
 <div className='bg-[#fff] min-h-screen'>
     <div className=' '>
         <h1 className='py-12 text-2xl sm:text-4xl md:text-6xl text-center font-bold text-black'>Spanish Dishes</h1>
         <div>
-            <Card3 title="Breakfast"  famousDish={SpainBreakFast}/>
+            <Card3 title="Spanish Breakfast"  famousDish={SpanishBreakFast}/>
         </div>
         <div>
-            <Card3 title="Lunch"  famousDish={SpainLunch}/>
+            <Card3 title="Spanish Lunch"  famousDish={SpanishLunch}/>
         </div>
         <div>
-            <Card3 title="Dinner"  famousDish={SpainDinner}/>
+            <Card3 title="Spanish Dinner" famousDish={SpanishDinner}/>
         </div>
     </div>
 </div>

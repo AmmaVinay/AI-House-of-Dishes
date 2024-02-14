@@ -2,18 +2,33 @@
 
 export const dishesSeeMorePath = [
   {
-    title: "Breakfast",
+    title: "Spanish Breakfast",
+    label: "SpanishLuxuryBrekFast",
     pathUrl: "/Luxury-Dishes/Spanish/SpainishLuxuryBreakFast"
   },
-  { title: "Lunch", pathUrl: "/Luxury-Dishes/Spanish/SpainishLuxuryLunch" },
-  { title: "Dinner", pathUrl: "/Luxury-Dishes/Spanish/SpainishLuxuryDinner" },
   {
-    title: "   Breakfast",
+    title: "Spanish Lunch",
+    label: "SpanishLuxuryLunch",
+    pathUrl: "/Luxury-Dishes/Spanish/SpainishLuxuryLunch"
+  },
+  {
+    title: "Spanish Dinner",
+    label: "SpanishLuxuryDinner",
+    pathUrl: "/Luxury-Dishes/Spanish/SpainishLuxuryDinner"
+  },
+  {
+    title: "Indian Breakfast",
+    label: "IndianLuxuryBrekFast",
     pathUrl: "/Luxury-Dishes/Indian/IndianLuxuryBreakFast"
   },
-  { title: "  Lunch", pathUrl: "/Luxury-Dishes/Indian/IndianLuxuryLunch" },
   {
-    title: "  Dinner",
+    title: "Indian Lunch",
+    label: "IndianLuxuryBrekFast",
+    pathUrl: "/Luxury-Dishes/Indian/IndianLuxuryLunch"
+  },
+  {
+    title: "Indian Dinner",
+    label: "IndianLuxuryBrekFast",
     pathUrl: "/Luxury-Dishes/Indian/IndianLuxuryDinner"
   }
 ];
