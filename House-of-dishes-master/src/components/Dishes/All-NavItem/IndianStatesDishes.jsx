@@ -10,8 +10,7 @@ import { FiSearch } from 'react-icons/fi';
 import {IndianStates} from '../../../Data/IndianStates/IndianStatesData'
 import RecommendedDishes from '../../../components/RecommendedDIshes/RecommendedDishes';
 import Footer from '../../../components/FooterItem/Footer';
-
-function IndianStatesDishes() {
+ function IndianStatesDishes() {
   const [viewMore, setViewMore] = useState(0);
   const [slidesToShow, setSlidesToShow] = useState(4);
   const [SearchState, setSearchState] = useState('');
@@ -158,7 +157,7 @@ function IndianStatesDishes() {
       </div>
 
       <div>
-        <RecommendedDishes />
+        <RecommendedDishes   />
         <Footer />
       </div>
     </div>

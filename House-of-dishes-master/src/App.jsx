@@ -17,8 +17,19 @@ import Indian from './components/Dishes/Luxury-Dishes/India/Indian'
 import IndianLuxuryBreakFast from './components/Dishes/Luxury-Dishes/India/IndianLuxuryBreakFast'
 import IndianLuxuryLunch from './components/Dishes/Luxury-Dishes/India/IndianLuxuryLunch'
 import IndianLuxuryDinner from './components/Dishes/Luxury-Dishes/India/IndianLuxuryDinner'
+
 import IndianStatesDishes from './components/Dishes/All-NavItem/IndianStatesDishes'
- const App = () => {
+import AndhraPradesh from './components/Dishes/All-NavItem/AndhraPradeshState/AndhraPradesh'
+import AndhraPradeshLuxuryBreakFast from './components/Dishes/All-NavItem/AndhraPradeshState/AndhraPradeshLuxuryBreakFast'
+import AndhraPradeshLuxuryLunch from './components/Dishes/All-NavItem/AndhraPradeshState/AndhraPradeshLuxuryLunch'
+import AndhraPradeshLuxuryDinner from './components/Dishes/All-NavItem/AndhraPradeshState/AndhraPradeshLuxuryDinner'
+
+import ArunachalPradesh from './components/Dishes/All-NavItem/ArunachalPradeshState/ArunachalPradesh'
+import ArunachalPradeshLuxuryBreakFast from './components/Dishes/All-NavItem/ArunachalPradeshState/ArunachalPradeshLuxuryBreakFast'
+import ArunachalPradeshLuxuryLunch from './components/Dishes/All-NavItem/ArunachalPradeshState/ArunachalPradeshLuxuryLunch'
+import ArunachalPradeshLuxuryDinner from './components/Dishes/All-NavItem/ArunachalPradeshState/ArunachalPradeshLuxuryDinner'
+
+   const App = () => {
   return (
     <>
      <BrowserRouter>
@@ -38,9 +49,18 @@ import IndianStatesDishes from './components/Dishes/All-NavItem/IndianStatesDish
       <Route path='/Luxury-Dishes/Indian/IndianLuxuryBreakFast' element={<IndianLuxuryBreakFast />} />
       <Route path='/Luxury-Dishes/Indian/IndianLuxuryLunch' element={<IndianLuxuryLunch />} />
       <Route path='/Luxury-Dishes/Indian/IndianLuxuryDinner' element={<IndianLuxuryDinner />} />
-      <Route path='/All-Indian-Dishes' element={<IndianStatesDishes />} />    
-       </Routes> 
-     </BrowserRouter>
+      <Route path='/All-Indian-Dishes' element={<IndianStatesDishes />} /> 
+      <Route path='/All-Indian-Dishes/AndhraPradesh' element={<AndhraPradesh />} />
+      <Route path='/All-Indian-Dishes/AndhraPradesh/AndhraPradeshLuxuryBreakFast' element={<AndhraPradeshLuxuryBreakFast />} />
+      <Route path='/All-Indian-Dishes/AndhraPradesh/AndhraPradeshLuxuryLunch' element={<AndhraPradeshLuxuryLunch />} /> 
+      <Route path='/All-Indian-Dishes/AndhraPradesh/AndhraPradeshLuxuryDinner' element={<AndhraPradeshLuxuryDinner />} />
+      <Route path='/All-Indian-Dishes/ArunachalPradesh' element={<ArunachalPradesh />} />
+      <Route path='/All-Indian-Dishes/ArunachalPradesh/ArunachalPradeshLuxuryBreakFast' element={<ArunachalPradeshLuxuryBreakFast />} />
+      <Route path='/All-Indian-Dishes/ArunachalPradesh/ArunachalPradeshLuxuryLunch' element={<ArunachalPradeshLuxuryLunch />} />
+      <Route path='/All-Indian-Dishes/ArunachalPradesh/ArunachalPradeshLuxuryDinner' element={<ArunachalPradeshLuxuryDinner />} />
+
+        </Routes> 
+     </BrowserRouter>  
      </>
   )
 }
