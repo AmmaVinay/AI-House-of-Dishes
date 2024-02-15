@@ -17,6 +17,7 @@ import Indian from './components/Dishes/Luxury-Dishes/India/Indian'
 import IndianLuxuryBreakFast from './components/Dishes/Luxury-Dishes/India/IndianLuxuryBreakFast'
 import IndianLuxuryLunch from './components/Dishes/Luxury-Dishes/India/IndianLuxuryLunch'
 import IndianLuxuryDinner from './components/Dishes/Luxury-Dishes/India/IndianLuxuryDinner'
+import IndianStatesDishes from './components/Dishes/All-NavItem/IndianStatesDishes'
  const App = () => {
   return (
     <>
@@ -37,6 +38,7 @@ import IndianLuxuryDinner from './components/Dishes/Luxury-Dishes/India/IndianLu
       <Route path='/Luxury-Dishes/Indian/IndianLuxuryBreakFast' element={<IndianLuxuryBreakFast />} />
       <Route path='/Luxury-Dishes/Indian/IndianLuxuryLunch' element={<IndianLuxuryLunch />} />
       <Route path='/Luxury-Dishes/Indian/IndianLuxuryDinner' element={<IndianLuxuryDinner />} />
+      <Route path='/All-Indian-Dishes' element={<IndianStatesDishes />} />    
        </Routes> 
      </BrowserRouter>
      </>

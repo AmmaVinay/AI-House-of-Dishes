@@ -10,7 +10,7 @@ import { FaMicrophone } from "react-icons/fa";
 import { FiSearch } from "react-icons/fi";
 import { CountryFlag } from '../../../Data/CountryFlagLuxuryData/CountryFlag';
 import RecommendedDishes from '../../../components/RecommendedDIshes/RecommendedDishes'
-
+import Footer from '../../../components/FooterItem/Footer'
 function LuxuryDishes() {
 const [viewMore, setViewMore] = useState(0);
 const [slidesToShow, setSlidesToShow] = useState(4);
@@ -101,8 +101,8 @@ window.removeEventListener("resize", handleResize);
             <Slider {...settings}>
                 {filteredCountry.map((dish, index) => (
                 <div key={index} className='text-center'>
-                    <Link to={dish.LuxuryDishesPath}>
-                    <div className='flex py-8 flex-col items-center hover:scale-110 transition-transform duration-300 transition'>
+                        <Link to={dish.LuxuryDishesPath}>
+                     <div className='flex py-8 flex-col items-center hover:scale-110 transition-transform duration-300 transition'>
                         <img style={{ width: '200px', height: '200px', borderRadius: '50%' }} className='object-cover border-2 h-48 shadow-xl shadow-slate-400' src={`https://flagcdn.com/${dish.countryFlag}.svg`} alt={dish.countryName} />
                         <p className='mt-3 text-center text-lg font-bold'>{dish.countryName}</p>
                     </div>
@@ -142,7 +142,10 @@ window.removeEventListener("resize", handleResize);
     
          <div>
              <RecommendedDishes />
+                   <Footer />
+
          </div>
+
 </div>
 );
 }
