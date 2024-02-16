@@ -29,6 +29,8 @@ import ArunachalPradeshLuxuryBreakFast from './components/Dishes/All-NavItem/Aru
 import ArunachalPradeshLuxuryLunch from './components/Dishes/All-NavItem/ArunachalPradeshState/ArunachalPradeshLuxuryLunch'
 import ArunachalPradeshLuxuryDinner from './components/Dishes/All-NavItem/ArunachalPradeshState/ArunachalPradeshLuxuryDinner'
 
+import QuickDishes from './components/Dishes/Quick-Dishes/QuickDishes'
+import HealthyDishes from './components/Dishes/Healthy-Dishes/HealthyDishes'
    const App = () => {
   return (
     <>
@@ -58,7 +60,8 @@ import ArunachalPradeshLuxuryDinner from './components/Dishes/All-NavItem/Arunac
       <Route path='/All-Indian-Dishes/ArunachalPradesh/ArunachalPradeshLuxuryBreakFast' element={<ArunachalPradeshLuxuryBreakFast />} />
       <Route path='/All-Indian-Dishes/ArunachalPradesh/ArunachalPradeshLuxuryLunch' element={<ArunachalPradeshLuxuryLunch />} />
       <Route path='/All-Indian-Dishes/ArunachalPradesh/ArunachalPradeshLuxuryDinner' element={<ArunachalPradeshLuxuryDinner />} />
-
+          <Route path='/Quick-Dishes' element={<QuickDishes />} />
+          <Route path='/Healthy-Dishes' element={<HealthyDishes />} />
         </Routes> 
      </BrowserRouter>  
      </>
