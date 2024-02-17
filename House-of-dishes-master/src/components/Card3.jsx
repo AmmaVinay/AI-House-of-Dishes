@@ -52,7 +52,7 @@ const Card3 = ({ title, famousDish,  }) => {
           title === path.title && (
             <Link key={index} to={path.pathUrl}>
               <button className="relative ml-12 font-bold px-2 mt-12 h-7 ">
-                <div className="flex flex-row items-center justify-center "onClick={() => window.scrollTo(0, 0)}>
+                <div className="flex flex-row items-center justify-center " onClick={() => window.scrollTo(0, 0)}>
                   <p className="mb-[0.25rem] text-lg sm:text-xl md:text-2xl">See More</p>
                   <FaAngleRight />
                 </div>
@@ -66,7 +66,7 @@ const Card3 = ({ title, famousDish,  }) => {
         <Slider {...settings}>
           {famousDish.map((dish, index ) => (
              <div key={index}>
-              <Card2 title={dish.dishName} dishPath={dish.dishPath}imageUrl={dish.dishImage} time={60} rating={4.5} />
+              <Card2 title={dish.dishName} dishPath={dish.dishPath} imageUrl={dish.dishImage} time={60} rating={4.5} />
             </div>
           ))}
         </Slider>

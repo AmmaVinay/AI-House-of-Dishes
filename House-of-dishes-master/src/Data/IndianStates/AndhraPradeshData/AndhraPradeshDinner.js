@@ -6,7 +6,7 @@ export const AndhraPradeshDinner = [
     dishName: "Chapala Pulusu (Fish Stew)",
     dishImage:
       "https://www.yummytummyaarthi.com/wp-content/uploads/2015/06/nellore-chepala-pulusu-1.jpeg",
-    dishPath: "/Andhra-Mutton-Curry-info"
+    dishPath: "/Chapala-Pulusu-Fish-Stew-info"
   },
   {
     dishName: "Andhra Mutton Curry",

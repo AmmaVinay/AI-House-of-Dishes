@@ -4,7 +4,8 @@ export const ArunachalPradeshDinner = [
   {
     dishName: "Bamboo Shoot Fried Rice",
     dishImage:
-      "https://www.gototibet.com/d/file/travel-guide/food-and-drink/2016-12-31/f22fe499ed5b8222c3719020bb760e41.jpg"
+      "https://www.gototibet.com/d/file/travel-guide/food-and-drink/2016-12-31/f22fe499ed5b8222c3719020bb760e41.jpg",
+    dishPath: "/Bamboo-Shoot-Fried-Rice-info"
   },
   {
     dishName: "Gya Kho Soup",

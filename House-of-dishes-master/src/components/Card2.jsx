@@ -6,9 +6,9 @@ const fullStars = Math.floor(rating);
 const hasHalfStar = rating % 1 !== 0;
  return (
 <div className="rounded-lg  h-[325px] flex  flex-row md:flex-col  w-[325px]  cursor-pointer   hover:scale-110 transition-all duration-300 ">
-         <Link to={dishPath} onClick={()=> window.scrollTo(0,0)}>
-        <div className="cards-container  ">
-         <div className="card">
+    <Link to={dishPath} onClick={() => window.scrollTo(0,0)}>
+        <div className="cards-container">
+             <div className="card">
                 <div class="card-media">
                     <img className="rounded-lg w-[100%] h-[200px] object-cover border-2   z-[1000000] " src={imageUrl} alt={title} />
                 </div>
@@ -35,10 +35,9 @@ const hasHalfStar = rating % 1 !== 0;
                         </div>
                     </div>
                 </div>
+            </div>
          </div>
-     </div>
-
-         </Link>
+    </Link>
 </div>
 );
 };

@@ -5,12 +5,14 @@ export const AndhraPradeshLunch = [
   {
     dishName: "Andhra Chicken Curry",
     dishImage:
-      "https://www.whiskaffair.com/wp-content/uploads/2021/10/Andhra-Chicken-Curry-2-3.jpg"
+      "https://www.whiskaffair.com/wp-content/uploads/2021/10/Andhra-Chicken-Curry-2-3.jpg",
+    dishPath: "/Andhra-Chicken-Curry-info"
   },
   {
     dishName: "Gongura Chicken",
     dishImage:
-      "https://img-global.cpcdn.com/recipes/2c6e0273fbe702a2/1200x630cq70/photo.jpg"
+      "https://img-global.cpcdn.com/recipes/2c6e0273fbe702a2/1200x630cq70/photo.jpg",
+    dishName: "/Gongura-Chicken-info"
   },
   {
     dishName: "Royyala Iguru (Prawn Curry)",

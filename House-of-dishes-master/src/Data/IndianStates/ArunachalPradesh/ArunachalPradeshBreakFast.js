@@ -3,7 +3,8 @@
 export const ArunachalPradeshBreakFast = [
   {
     dishName: "Thukpa",
-    dishImage: "https://images.slurrp.com/prodarticles/57qvahm5gug.webp"
+    dishImage: "https://images.slurrp.com/prodarticles/57qvahm5gug.webp",
+    dishPath: "/Thukpa-info"
   },
   {
     dishName: "Khura",

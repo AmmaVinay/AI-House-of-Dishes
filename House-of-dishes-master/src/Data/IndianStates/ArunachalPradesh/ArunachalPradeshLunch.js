@@ -4,7 +4,8 @@ export const ArunachalPradeshLunch = [
   {
     dishName: "Thenthuk Soup",
     dishImage:
-      "https://i.pinimg.com/736x/46/0c/c7/460cc7a71e9fdde5712e7e28d95424f3.jpg"
+      "https://i.pinimg.com/736x/46/0c/c7/460cc7a71e9fdde5712e7e28d95424f3.jpg",
+    dishPath: "/Thenthuk-Soup-info"
   },
   {
     dishName: "Aloo Gobi",
