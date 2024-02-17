@@ -5,17 +5,20 @@ export const AndhraPradeshDinner = [
   {
     dishName: "Chapala Pulusu (Fish Stew)",
     dishImage:
-      "https://www.yummytummyaarthi.com/wp-content/uploads/2015/06/nellore-chepala-pulusu-1.jpeg"
+      "https://www.yummytummyaarthi.com/wp-content/uploads/2015/06/nellore-chepala-pulusu-1.jpeg",
+    dishPath: "/Andhra-Mutton-Curry-info"
   },
   {
     dishName: "Andhra Mutton Curry",
     dishImage:
-      "https://www.yummyntasty.com/wp-content/uploads/2012/12/nadan-mutton-curry.jpg"
+      "https://www.yummyntasty.com/wp-content/uploads/2012/12/nadan-mutton-curry.jpg",
+    dishPath: "/Andhra-Mutton-Curry-info"
   },
   {
     dishName: "Kakarakaya Kura (Bitter Gourd Curry)",
     dishImage:
-      "https://www.madhuseverydayindian.com/wp-content/uploads/2020/11/baked-karela-baked-bitter-gourd.jpg"
+      "https://www.madhuseverydayindian.com/wp-content/uploads/2020/11/baked-karela-baked-bitter-gourd.jpg",
+    dishPath: "/"
   },
   {
     dishName: "Gongura Mutton",

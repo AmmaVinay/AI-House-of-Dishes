@@ -64,9 +64,9 @@ const Card3 = ({ title, famousDish,  }) => {
 
       <div className="">
         <Slider {...settings}>
-          {famousDish.map((dish, index) => (
+          {famousDish.map((dish, index ) => (
              <div key={index}>
-              <Card2 title={dish.dishName} imageUrl={dish.dishImage} time={60} rating={4.5} />
+              <Card2 title={dish.dishName} dishPath={dish.dishPath}imageUrl={dish.dishImage} time={60} rating={4.5} />
             </div>
           ))}
         </Slider>

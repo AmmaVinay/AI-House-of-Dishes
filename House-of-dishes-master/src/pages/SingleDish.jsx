@@ -58,7 +58,7 @@ const options = [
   { label: "Cilantro", value: 5 },
 ];
 
-const Dish = () => {
+const SingleDish = () => {
   const navigate = useNavigate()
   
   const [isValue,setValue] = useState([options[0].value]);
@@ -68,11 +68,7 @@ const Dish = () => {
   const navigateHandler = () =>{
     navigate('/cooking')
   }
-
-
-
-
-
+ 
   return (
     <>
       <div className="h-full w-screen bg-[#0B1018] text-white">
@@ -207,5 +203,4 @@ const Dish = () => {
     </>
   );
 };
-
-export default Dish;
+export default SingleDish;

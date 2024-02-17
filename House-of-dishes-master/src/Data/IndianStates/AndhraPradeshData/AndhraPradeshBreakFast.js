@@ -4,12 +4,14 @@
 export const AndhraPradeshBreakFast = [
   {
     dishName: "Pesarattu",
-    dishImage: "https://www.kannammacooks.com/wp-content/uploads/pesarattu.jpg"
+    dishImage: "https://www.kannammacooks.com/wp-content/uploads/pesarattu.jpg",
+    dishPath: "/Pesarattu-info"
   },
   {
     dishName: "Upma",
     dishImage:
-      "https://www.honeywhatscooking.com/wp-content/uploads/2023/06/Rava-Upma-FeaturedImage.jpg"
+      "https://www.honeywhatscooking.com/wp-content/uploads/2023/06/Rava-Upma-FeaturedImage.jpg",
+    dishPath: "/upma-info"
   },
   {
     dishName: "Idli-Sambar",
