@@ -4,7 +4,8 @@ export const IndianBreakFast = [
   {
     dishName: "Masala Dosa",
     dishImage:
-      "https://www.palatesdesire.com/wp-content/uploads/2022/09/Mysore-masala-dosa-recipe@palates-desire.jpg"
+      "https://www.palatesdesire.com/wp-content/uploads/2022/09/Mysore-masala-dosa-recipe@palates-desire.jpg",
+    dishPath: "/Masala-Dosa-info"
   },
   {
     dishName: "Idli-Sambar",

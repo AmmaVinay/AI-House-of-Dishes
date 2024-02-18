@@ -4,7 +4,8 @@ export const SpanishBreakFast = [
   {
     dishName: "Churros with Chocolate",
     dishImage:
-      "https://api.openverse.engineering/v1/images/e8a6f000-b890-4c97-b057-ddabc29020bd/thumb/"
+      "https://api.openverse.engineering/v1/images/e8a6f000-b890-4c97-b057-ddabc29020bd/thumb/",
+    dishPath: "/Churros-with-Chocolate-info"
   },
   {
     dishName: "Pan con Tomate",

@@ -4,7 +4,8 @@ export const SpanishDinner = [
   {
     dishName: "Gazpacho",
     dishImage:
-      "https://shortgirltallorder.com/wp-content/uploads/2022/06/gazpacho-square-500x375.jpg"
+      "https://shortgirltallorder.com/wp-content/uploads/2022/06/gazpacho-square-500x375.jpg",
+    dishPath: "/Gazpacho-info"
   },
   {
     dishName: "Tapas Assortment",

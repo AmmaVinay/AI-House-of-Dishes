@@ -53,7 +53,8 @@ export const IndianDinner = [
   {
     dishName: "Baingan Bharta",
     dishImage:
-      "https://rainbowplantlife.com/wp-content/uploads/2022/05/baingan-bharta-new-cover-photo-1-of-1.jpg"
+      "https://rainbowplantlife.com/wp-content/uploads/2022/05/baingan-bharta-new-cover-photo-1-of-1.jpg",
+    dishPath: "/Baingan-Bharta-info"
   },
   {
     dishName: "Dhokla",

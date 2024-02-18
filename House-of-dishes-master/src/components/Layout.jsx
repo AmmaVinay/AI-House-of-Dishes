@@ -5,8 +5,7 @@ import { useEffect } from "react"
 import { useLocation } from "react-router-dom"
 import { googleAuthenticate } from "../actions/auth"
 import queryString from 'query-string'
-import Navbar from "./Navbar"
-import { connect } from "react-redux"
+ import { connect } from "react-redux"
 
 const Layout = (props) => {
 

@@ -4,7 +4,8 @@ export const IndianLunch = [
   {
     dishName: "Butter Chicken",
     dishImage:
-      "https://40aprons.com/wp-content/uploads/2016/01/butter-chicken-5-1.jpg"
+      "https://40aprons.com/wp-content/uploads/2016/01/butter-chicken-5-1.jpg",
+    dishPath: "/Butter-Chicken-info"
   },
   {
     dishName: "Paneer Tikka Masala",

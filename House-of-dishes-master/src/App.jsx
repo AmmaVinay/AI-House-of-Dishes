@@ -9,9 +9,9 @@ import Layout from './components/Layout';
 import TeamPage from './pages/TeamPage';
 import LuxuryDishes from './components/Dishes/Luxury-Dishes/LuxuryDishes';
 import Spanish from './components/Dishes/Luxury-Dishes/Spain/Spanish';
-import SpainishLuxuryBreakFast from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryBreakFast';
-import SpainishLuxuryLunch from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryLunch';
-import SpainishLuxuryDinner from './components/Dishes/Luxury-Dishes/Spain/SpainishLuxuryDinner';
+import SpanishLuxuryBreakFast from './components/Dishes/Luxury-Dishes/Spain/SpanishLuxuryBreakFast';
+import SpanishLuxuryLunch from './components/Dishes/Luxury-Dishes/Spain/SpanishLuxuryLunch';
+import SpanishLuxuryDinner from './components/Dishes/Luxury-Dishes/Spain/SpanishLuxuryDinner';
 
 import Indian from './components/Dishes/Luxury-Dishes/India/Indian';
 import IndianLuxuryBreakFast from './components/Dishes/Luxury-Dishes/India/IndianLuxuryBreakFast';
@@ -44,9 +44,9 @@ const App = () => {
           <Route path='/login' element={<Login />} />
           <Route path='/Luxury-Dishes' element={<LuxuryDishes />} />
           <Route path='/Luxury-Dishes/Spanish' element={<Spanish />} />
-          <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryBreakFast' element={<SpainishLuxuryBreakFast />} />
-          <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryLunch' element={<SpainishLuxuryLunch />} />
-          <Route path='/Luxury-Dishes/Spanish/SpainishLuxuryDinner' element={<SpainishLuxuryDinner />} />
+          <Route path='/Luxury-Dishes/Spanish/SpanishLuxuryBreakFast' element={<SpanishLuxuryBreakFast />} />
+          <Route path='/Luxury-Dishes/Spanish/SpanishLuxuryLunch' element={<SpanishLuxuryLunch />} />
+          <Route path='/Luxury-Dishes/Spanish/SpanishLuxuryDinner' element={<SpanishLuxuryDinner />} />
           <Route path='/Luxury-Dishes/Indian' element={<Indian />} />
           <Route path='/Luxury-Dishes/Indian/IndianLuxuryBreakFast' element={<IndianLuxuryBreakFast />} />
           <Route path='/Luxury-Dishes/Indian/IndianLuxuryLunch' element={<IndianLuxuryLunch />} />
@@ -71,7 +71,15 @@ const App = () => {
             <Route path='/Gongura-Chicken-info' element={<SingleDish />} />
             <Route path='/Thukpa-info' element={<SingleDish />} />
             <Route path='/Bamboo-Shoot-Fried-Rice-info' element={<SingleDish />} />
-            <Route path='/Thenthuk-Soup-info' element={<SingleDish />} />
+          <Route path='/Thenthuk-Soup-info' element={<SingleDish />} />
+                    <Route path='/Masala-Dosa-info' element={<SingleDish />} />
+            <Route path='/Baingan-Bharta-info' element={<SingleDish />} />
+            <Route path='/Butter-Chicken-info' element={<SingleDish />} />
+            <Route path='/Churros-with-Chocolate-info' element={<SingleDish />} />
+            <Route path='/Gazpacho-info' element={<SingleDish />} />
+            <Route path='/Paella-info' element={<SingleDish />} />
+          <Route path='/Thenthuk-Soup-info' element={<SingleDish />} />
+
         </Routes>
       </BrowserRouter>
     </>

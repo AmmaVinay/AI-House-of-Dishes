@@ -4,7 +4,8 @@ export const SpanishLunch = [
   {
     dishName: "Paella",
     dishImage:
-      "https://api.openverse.engineering/v1/images/99edf11f-cd87-49f3-ac3f-94abb696dd24/thumb/"
+      "https://api.openverse.engineering/v1/images/99edf11f-cd87-49f3-ac3f-94abb696dd24/thumb/",
+    dishPath: "/Paella-info"
   },
   {
     dishName: "Gazpacho",

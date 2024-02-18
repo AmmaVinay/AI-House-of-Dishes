@@ -11,7 +11,7 @@ const AndhraPradeshLuxuryDinner = () => {
       <div className="flex flex-wrap justify-center">
         {AndhraPradeshDinner.map((dish, index) => (
           <div key={index}>
-            <Card2 title={dish.dishName} imageUrl={dish.dishImage} time={60} rating={4.5} />
+            <Card2 title={dish.dishName} dishPath={dish.dishPath} imageUrl={dish.dishImage} time={60} rating={4.5} />
           </div>
         ))}
       </div>
