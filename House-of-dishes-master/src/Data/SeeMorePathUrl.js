@@ -4,17 +4,17 @@ export const dishesSeeMorePath = [
   {
     title: "Spanish Breakfast",
     label: "SpanishLuxuryBrekFast",
-    pathUrl: "/Luxury-Dishes/Spanish/SpainishLuxuryBreakFast"
+    pathUrl: "/Luxury-Dishes/Spanish/SpanishLuxuryBreakFast"
   },
   {
     title: "Spanish Lunch",
     label: "SpanishLuxuryLunch",
-    pathUrl: "/Luxury-Dishes/Spanish/SpainishLuxuryLunch"
+    pathUrl: "/Luxury-Dishes/Spanish/SpanishLuxuryLunch"
   },
   {
     title: "Spanish Dinner",
     label: "SpanishLuxuryDinner",
-    pathUrl: "/Luxury-Dishes/Spanish/SpainishLuxuryDinner"
+    pathUrl: "/Luxury-Dishes/Spanish/SpanishLuxuryDinner"
   },
   {
     title: "Indian Breakfast",

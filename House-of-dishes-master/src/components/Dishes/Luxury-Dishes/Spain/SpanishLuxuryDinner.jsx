@@ -2,7 +2,7 @@ import React from 'react';
 import { SpanishDinner } from '../../../../Data/LuxuryDishesData/SpanishDishes/SpanishDinner';
 import Card2 from '../../../Card2';
 
-const SpainishLuxuryDinner = () => {
+const SpanishLuxuryDinner = () => {
   return (
     <div className="mx-12">
       <div>
@@ -19,4 +19,4 @@ const SpainishLuxuryDinner = () => {
   );
 };
 
-export default SpainishLuxuryDinner;
+export default SpanishLuxuryDinner;

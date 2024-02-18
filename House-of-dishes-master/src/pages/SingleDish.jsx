@@ -187,7 +187,7 @@ const SingleDish = () => {
           <div className="flex items-center translate-x-[24%] my-5" >
           <button
           className="p-2 px-4 bg-indigo-600 text-white font-bold rounded-lg"
-          onClick={navigateHandler}>Start Cooking</button>
+          onClick={navigateHandler} >Start Cooking</button>
           </div>
          
         </div>
