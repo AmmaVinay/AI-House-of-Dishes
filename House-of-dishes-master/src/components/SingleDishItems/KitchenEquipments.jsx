@@ -29,11 +29,11 @@ const KitchenEquipments = () => {
       </div>
 
       <div>
-      <ul className="flex gap-5 mt-5">
+      <ul className="flex flex-wrap gap-5 mt-5">
           {
             kitchenEq.map((item,index) => {
             return (
-              <li key={index} className="bg-slate-800 w-fit p-2 rounded-3xl border"> 
+              <li key={index} className="bg-slate-800 text-white w-fit p-2 rounded-3xl border"> 
                   <div>{item.title}</div>
               </li>
             )

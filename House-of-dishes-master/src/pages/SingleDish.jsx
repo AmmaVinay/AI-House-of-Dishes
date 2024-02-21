@@ -6,8 +6,8 @@ import RecommendedDishes from "../components/RecommendedDIshes/RecommendedDishes
 import KitchenEquipments from "../components/SingleDishItems/KitchenEquipments";
 import { useState } from "react";
 import NumberOfPeople from "../components/SingleDishItems/NumberOfPeople";
-import { useNavigate } from "react-router-dom";
 import 'plyr/dist/plyr.css';
+import { Link } from "react-router-dom";
 
 
 const NutritionValue = [
@@ -60,79 +60,69 @@ const options = [
 ];
 
 const SingleDish = () => {
-const navigate = useNavigate()
 
 const [isValue,setValue] = useState([options[0].value]);
 console.log(isValue)
 
-
-const navigateHandler = () =>{
-navigate('/cooking')
-}
-
 return (
 <>
-    <div className="h-full w-screen container-lg pt-5 bg-[#0B1018] text-white">
+    <div className="h-full w-screen  pt-5 bg-white text-black">
         {/* single dish image and title,nutrition value */}
-        <div className="flex flex-col md:flex-row items-center justify-center  space-x-8">
-            <div className=" w-full md:w-1/3">
+        <div className="px-12 flex flex-col md:flex-row items-center justify-center gap-8">
+            <div className="w-full sm:w-8/12 md:w-7/12 ">
                 <img src="https://www.whiskaffair.com/wp-content/uploads/2020/08/Dhaba-Style-Paneer-Masala-2-3.jpg" alt="dish image" className="rounded-lg w-full object-cover" />
             </div>
-            <div className="flex flex-col w-full md:w-1/2 ">
-                {/* dish title and type veg or non veg */}
-                <div className="text-6xl font-bold my-3">Panner Masala</div>
-                <div className="bg-slate-700 rounded-full w-fit py-1 px-2 mb-8 f">
+
+            <div className="flex flex-col w-full md:5/12">
+                <div className="text-4xl md:text-4xl font-bold my-3">Paneer Masala</div>
+                <div className="bg-green-500 text-white rounded-full w-fit py-1 px-2 mb-8">
                     Vegetarian
                 </div>
 
-                {/* dish description */}
-                <div className="flex justify-around text-xl bg-slate-600 py-2 rounded-2xl">
-                    <div className="flex gap-3">
-                        <div>
-                            <BsFillStopwatchFill className="text-4xl mt-2" />
+                {/* Dish Information */}
+                <div className="flex flex-col justify-between  ">
+                    <div className="flex items-center   justify-around text-white space-y-4 md:space-y-0 md:space-x-4 bg-slate-700 py-2 rounded-2xl">
+                        {/* Time */}
+                        <div className="flex flex-col items-center md:flex-row gap-3">
+                            <BsFillStopwatchFill className="text-4xl md:mt-2" />
+                            <div className="font-semibold text-sm md:text-base">
+                                <p className="text-xs md:text-sm">Time</p>
+                                <p className="text-xs md:text-sm">60min</p>
+                            </div>
                         </div>
-                        <div className="font-semibold">
-                            <p>Time</p>
-                            <p>60min</p>
+
+                        {/* Ingredients */}
+                        <div className="flex flex-col items-center md:flex-row gap-3">
+                            <SiCodechef className="text-4xl md:mt-2" />
+                            <div className="font-semibold text-sm md:text-base">
+                                <p className="text-xs md:text-sm">Ingredients</p>
+                                <p className="text-xs md:text-sm">20</p>
+                            </div>
+                        </div>
+
+                        {/* Calories */}
+                        <div className="flex flex-col items-center md:flex-row gap-3">
+                            <BsFire className="text-4xl md:mt-2" />
+                            <div className="font-semibold text-sm md:text-base">
+                                <p className="text-xs md:text-sm">Calories</p>
+                                <p className="text-xs md:text-sm">500kcal</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div className="flex gap-3">
-                        <div>
-                            <SiCodechef className="text-4xl mt-2" />
-                        </div>
-                        <div className="font-semibold">
-                            <p>Ingradients</p>
-                            <p>20</p>
-                        </div>
+                    <div className="">
+                        <h1 className="text-2xl font-bold pt-5">About the Dish</h1>
+                        <p className="text-base md:text-lg text-justify ">
+                            Paneer Butter Masala is a rich and creamy North Indian Dish, featuring succulent chunks of paneer (Indian Cottage Cheese) cooked in a luscious tomato-based gravy, enriched with butter and aromatic spices. Its indulgent flavors and velvety texture make it a beloved vegetarian delicacy.
+                        </p>
                     </div>
-
-                    <div className="flex gap-3">
-                        <div>
-                            <BsFire className="text-4xl mt-2" />
-                        </div>
-                        <div className="font-semibold">
-                            <p>Calories</p>
-                            <p>500kcal</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                {/* nutrition description */}
-                
-                <div>
-                    <h1 className="text-2xl font-bold pt-5">About the Dish</h1>
-                    <p className="text-lg md:text-xl">
-                        Paneer Butter Masala is a rich and creamy North Indian Dish, featuring succelent chunks of paneer (Indian Cottage Cheese) cooked in a luscious tomato-based gravy, enriched wiht butter and aromatic spices. its indulgent flavours and velvety texture make it a beloved vegetarian delicacy.
-                    </p>
                 </div>
             </div>
         </div>
 
         {/* Main Ingradients section */}
 
-        <div className=" translate-x-[10%]">
+        <div className="px-12">
             <div className="text-2xl font-semibold items-center mt-5">
                 Main Ingradients
             </div>
@@ -140,7 +130,7 @@ return (
                 {
                 mainIngradients.map((item,index) => {
                 return (
-                <li key={index} className="bg-slate-800  w-fit p-2 rounded-3xl border">
+                <li key={index} className="bg-slate-800 text-white  w-fit p-2 rounded-3xl border">
                     <div>{item.title}</div>
                 </li>
                 )
@@ -154,14 +144,16 @@ return (
             </div>
 
             <div className="">
-            <NewMultiSelect multiple options={options} isValue={isValue} onChange={(opt)=>setValue(opt)} />
+                <NewMultiSelect multiple options={options} isValue={isValue} onChange={(opt)=>setValue(opt)} />
             </div>
             <KitchenEquipments />
             <NumberOfPeople />
 
         </div>
         <div className="flex items-center justify-center my-8">
-            <button className="p-2 px-4 bg-indigo-600 text-white font-bold rounded-lg" onClick={navigateHandler}>Start Cooking</button>
+            <Link to='/cooking'>
+            <button className="p-2 px-4 bg-indigo-600 text-white font-bold rounded-lg" onClick={()=> window.scrollTo(0, 0)}>Start Cooking</button>
+            </Link>
         </div>
 
         <RecommendedDishes />
