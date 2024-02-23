@@ -5,22 +5,25 @@ export const IndianBreakFast = [
     dishName: "Masala Dosa",
     dishImage:
       "https://www.palatesdesire.com/wp-content/uploads/2022/09/Mysore-masala-dosa-recipe@palates-desire.jpg",
-    dishPath: "/Masala-Dosa-info"
+    dishPath: "/Masala-Dosa"
   },
   {
     dishName: "Idli-Sambar",
     dishImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsyiviPA5JEmd4VNrFQmQ8npLYSd6EY-QjMp8ZaPTVpM7dYgRLhBnIDSGPP077ARbxvS0&usqp=CAU"
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsyiviPA5JEmd4VNrFQmQ8npLYSd6EY-QjMp8ZaPTVpM7dYgRLhBnIDSGPP077ARbxvS0&usqp=CAU",
+    dishPath: "/Idli-Sambar"
   },
   {
     dishName: "Poha",
     dishImage:
-      "https://www.mrishtanna.com/wp-content/uploads/2018/04/poha-indian-breakfast-recipe-500x500.jpg"
+      "https://www.mrishtanna.com/wp-content/uploads/2018/04/poha-indian-breakfast-recipe-500x500.jpg",
+    dishPath: "/Poha"
   },
   {
     dishName: "Aloo Paratha",
     dishImage:
-      "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/08/aloo-paratha-recipe.jpg"
+      "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/08/aloo-paratha-recipe.jpg",
+    dishPath: "/Aloo-Paratha"
   },
   {
     dishName: "Upma",

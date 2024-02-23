@@ -2,14 +2,14 @@
 
 export const CountryFlag = [
   {
-    countryName: "Spanish",
-    countryFlag: "es",
-    LuxuryDishesPath: "/Luxury-Dishes/Spanish"
-  },
-  {
     countryName: "Indian",
     countryFlag: "in",
     LuxuryDishesPath: "/Luxury-Dishes/Indian"
+  },
+  {
+    countryName: "Spanish",
+    countryFlag: "es",
+    LuxuryDishesPath: "/Luxury-Dishes/Spanish"
   },
   {
     countryName: "Mexican",

@@ -1,23 +1,13 @@
-import { useNavigate } from "react-router-dom"
-import IngredientsSection from "../components/IngredientsSection/IngredientsSection"
-import { useEffect } from "react";
+ import { useEffect } from "react";
 import "../Data/Video"
 import Plyr from 'plyr';
 import Hls from 'hls.js';
-
-const Cooking = () => {
-   const navigate = useNavigate();
-
-   const handleNavigate = () => {
-    navigate('')
-   }
-   
-   useEffect(() => {
+ 
+const Cooking = ({videoSource}) => {
     
-    //  alert("hello ji")
-    // document.addEventListener('DOMContentLoaded', ()=>{
+   useEffect(() => {
       var video =document.getElementById('player');
-      var source="./hls/inshot_20240103_185705791.m3u8";
+      var source= videoSource || "./hls/inshot_20240103_185705791.m3u8";
       var defaultOptions={};
       if(Hls.isSupported()){
         const hls=new Hls();
@@ -77,13 +67,6 @@ const Cooking = () => {
                     <video controls id="player" className=""></video>
                 </div>
              </div>
-        </div>
-        <div>
-
-        <IngredientsSection />
-        </div>
-        <div className="container">
-            <button onClick={handleNavigate} className=" text-white bg-indigo-600 py-1.5 px-4 rounded-lg font-bold ml-6">Back</button>
         </div>
 
     </div>  )
